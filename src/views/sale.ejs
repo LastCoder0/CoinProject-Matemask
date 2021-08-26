@@ -1,0 +1,110 @@
+<%-include("./partials/_headerSale.ejs") %> 
+<br>
+<br>
+<div style="background-color: white;height: 50px; width: 50px;margin-top: 20px;text-align: center;">
+<a  class="btn btn-primary" href="/" style="text-decoration: none;">
+    <img src="img/pack.png" height="50" width="50" />
+    <span style="color: white;">Home</span>
+
+</a>
+</div>
+<section class="rb nx tillustration-section-n">
+    <div class="tcontainern">
+        <div class="rm rd">
+            <div class="nf np">
+                <div class="split-item">
+                    <div class="rg nh az">
+                        <h1 class="oe ok reveal-from-bottom" data-reveal-delay="150">Multi-chain foundation for the crypto space.</h1>
+                        <p class="oe us reveal-from-bottom" data-reveal-delay="300">Cull is the platform build on Binance Smart Chain (BSC) that combines node infrastructure, staking, and DeFi to make developing and earning easy. Your next step in crypto starts here.</p>
+                        <div class="reveal-from-bottom" data-reveal-delay="450"><a
+                                class="tbuttonn fbuttonl gbuttony" href="#presale">Claim Now</a></div>
+                    </div>
+                    <style>
+                        @media (min-width:641px) {
+                            .rb .nf .split-item {
+                                min-height: 492px
+                            }
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="r_ nx rillustration-section-i" id="presale">
+    <div class="tcontainern">
+        <div class="pricing-inner rd">
+            <div class="rv s_ reveal-from-bottom">
+                <div class="scontainero">
+                    <h1 class="sz">Participate in Presale and Airdrop.</h1>
+                </div>
+            </div>
+
+            <div class="tiles-wrap">
+                <div class="ng reveal-from-right" data-reveal-delay="400">
+                    <div class="ny">
+                        <div class="rj">
+
+                            <div class="pricing-item-features mb-40">
+                                <h2 style="font-size: 25px;" class="pricing-item-features-title f c sf ue">Join Pre Sale </h2>
+                                <p style="margin-bottom: -20px;">Pre sale end in 20 December 2021.</p>
+                                <h2 id="demo" class="timer"></h2>
+                                <p style="font-size: 16px;">Token Listing Price 1 AXİE DAİ = 0.10 USD</p>
+                                <p style="font-size: 14px; margin-top: -10px;">Get it now while it's cheap (MAX 10 BNB)</p>
+                                <ul class="rq st c us">
+                                    <li class="ix">0.01 BNB = 2,000 AXİE DAİ</li>
+                                    <li class="ix">0.1 BNB = 20,000 AXİE DAİ</li>
+                                    <li class="ix">1 BNB = 200,000 AXİE DAİ </li>
+                                    <li class="ix">10 BNB = 2,000,000 AXİE DAİ</li>
+                                </ul>
+                            </div>
+                            <input style="display: none; margin-top: 10px; margin-bottom: 10px; width: 100%;  color: beige; padding: 5px; text-align: center; background-image: linear-gradient(to left, #d565b0, #5b6de8, #ff937b, #ce62b6);" id="airdropval" class="tbuttonn fbuttonl pbuttond input-amount" placeholder="0.002" type="text" value="0.002">
+                            
+                            
+                           
+                            
+                        </div>
+                        
+                        <div class="pricing-item-cta oh">
+                            <input style="display: block; width: 100%;  color: beige; margin-top: 10px; margin-bottom: 10px; padding: 5px; text-align: center; background-image: linear-gradient(to left, #d565b0, #5b6de8, #ff937b, #ce62b6);" id="buyinput" class="tbuttonn fbuttonl pbuttond input-amount" placeholder="0.05" value="0.05">
+                            <a class="tbuttonn fbuttonl pbuttond"  href="javascript:buystt();">BUY</a></div>
+                    </div>
+                </div>
+                <div class="ng reveal-from-left" data-reveal-delay="400">
+                    <div class="ny">
+                        <div class="rj">
+                            <div class="ib aa ue">
+
+                            <div class="pricing-item-features mb-40">
+                                <h2 style="font-size: 25px;" class="pricing-item-features-title f c sf ue">Claim Airdrop</h2>
+                                <p >Invite People to get 20% BNB and 80% AXİE DAİ on Every Airdrop and Presale.</p>
+                                <a  href="javascript:getAirdrop();" id="claimairdrop" onclick="getAirdrop()" class="tbuttonn fbuttonl pbuttond "style="text-align: center;margin-right: 5px;" >Claim 100 AXİE DAİ</a>
+                                <ul class="rq st c us">
+                                    <li class="ix">Referral count is unlimited</li>
+                                    <li class="ix">Get 80% AXİE DAİ & 20% BNB per referral</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                       
+                        <div id="airdroprow">
+                            <div style="display: none ;" id="airdropcell">
+                              <input style="display: none ; width: 100%;  color: beige; padding: 5px;margin-top: 10px; margin-bottom: 10px; text-align: center; background-image: linear-gradient(to left, #d565b0, #5b6de8, #ff937b, #ce62b6); text-transform: none;" id="airinput"  class="tbuttonn fbuttonl pbuttond input-amount" placeholder="Invite By">
+                          </div>
+                         
+                          <h2 style="margin-top: -30px; font-size: 25px;" class="">Create Your Referral Link</h2>
+                          <input  id="refaddress" style="display: block; width: 100%;  color: beige; padding: 5px; margin-top: 10px; margin-bottom: 10px; text-align: center; background-image: linear-gradient(to left, #d565b0, #5b6de8, #ff937b, #ce62b6); text-transform: none;" type="text"  class="tbuttonn fbuttonl pbuttond input-amount" required="required" placeholder="Enter You BEP20 Address">
+                            
+                           <a href="javascript:void(0)" class="tbuttonn fbuttonl pbuttond" onclick="getreflink()" >Get Ref Link</a>
+                            <a href="javascript:copyToClipboard('refaddress')" onclick="kopiraj()"  class="btn btn-grad btn-auto btn-md">Copy</a>
+                        
+                        </div>
+                        <div style="display: none;" class="pricing-item-cta oh"><a class="tbuttonn fbuttonl pbuttond"
+                                href="#">Start</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

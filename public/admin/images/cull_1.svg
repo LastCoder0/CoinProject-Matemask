@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10.12 2.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="-142.98" cy="293.79" r="0.1" gradientTransform="translate(-6150.15 -2863.69) rotate(-90) scale(20.04 20.94)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#376df9"/>
+      <stop offset="0.46" stop-color="#d262b4"/>
+      <stop offset="0.77" stop-color="#ff8d74"/>
+      <stop offset="1" stop-color="#ffd4ca"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path id="d" class="cls-1" d="M.87.06c.59.48.88.88.88,1.18a.85.85,0,0,1-.88.84A.85.85,0,0,1,0,1.24C0,.94.29.54.87.06Z"/>
+      <g>
+        <path class="cls-2" d="M4,.6H3.15a.42.42,0,0,0-.34.14.46.46,0,0,0,0,.66.42.42,0,0,0,.34.14H4v.59H3.15a1,1,0,0,1-.76-.31,1.06,1.06,0,0,1,0-1.5A1,1,0,0,1,3.15,0H4Z"/>
+        <path class="cls-2" d="M5.56,0h.59V1.23a.87.87,0,0,1-.27.64.91.91,0,0,1-1.27,0,.87.87,0,0,1-.27-.64V0h.59V1.23A.31.31,0,0,0,5,1.45a.33.33,0,0,0,.23.09.31.31,0,0,0,.31-.31Z"/>
+        <path class="cls-2" d="M7.11,1.54h1v.59H6.52V0h.59Z"/>
+        <path class="cls-2" d="M9.1,1.54h1v.59H8.51V0H9.1Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
